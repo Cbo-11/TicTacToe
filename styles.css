@@ -1,0 +1,75 @@
+html {
+    font-size: 10px;
+    background-size: cover;
+  }
+  
+#main {
+    font-size: 33px;
+    padding: 20px;
+    margin: auto,20px;
+    width: 100%;
+    text-align: center
+    
+}
+ 
+table tr {
+  font-size: 1.5rem;
+  padding: 1.5em;
+}
+
+td {
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+}
+
+select {
+  text-align: center; 
+  align-content: center;
+  width: 100px;
+  height: 50px;
+}
+
+.button {
+  width: 120px
+}
+
+.box {
+  border-radius: 20px;
+  color: rgb(150, 150, 150);
+  width: 1.5em;
+  z-index: 1;
+  height: 1.5em;
+  font-size: 5rem;
+  text-align: center;
+  cursor: default;
+  box-shadow: 
+   inset 0 2px 0 rgba(17, 17, 17, 0.2), 
+   0 0 4px rgba(0,0,0,0.1);
+}
+
+.player{
+  float: left;
+  margin:auto;
+  text-align: center;
+}
+
+#scoreBoard {
+  margin: auto;
+  width: 30%;
+  align-content: center;
+  display: flex;
+}
+
+#game-Board {
+  align-content: center;
+  margin:  auto;
+  text-align: end;
+  display: flex;
+  justify-content: center;
+}
+#title{
+  padding-bottom: 20px;
+}

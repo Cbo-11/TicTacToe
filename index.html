@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac TicTacToe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="app.js" defer></script>
+   
+</head>
+<body class="p-3 mb-2 bg-light.bg-gradient">
+    <div id=main> 
+        <div id=title>
+            TicTacToe
+        </div>
+
+        <div id=scoreBoard>
+       
+        <div id="P1Score" class="player">X Score: 0 </div>
+        <div class="player">|</div>
+        <div id="P2Score"  class=player>O Score: 0</div><br>
+       
+  
+          </div><br>
+          <div id=game-Board>
+            <table class="box-ctn">
+                <tr>
+                <td class="box" id="0"></td>
+                <td class="box" id="1"></td>
+                <td class="box" id="2"></td>
+                </tr>
+                <tr>
+                <td class="box" id="3"></td>
+                <td class="box" id="4"></td>
+                <td class="box" id="5"></td>
+                </tr>
+                <tr>
+                <td class="box" id="6"></td>
+                <td class="box" id="7"></td>
+                <td class="box" id="8"></td>
+                </tr>
+            </table>
+          </div>
+          <h1 id="winner-display"></h1>
+          <div class="btnDiv">
+              <button id='replay' class="btn btn-primary button">Restart</button>
+              <button id='new' class="btn btn-primary button">New</button>
+          </div>
+    </div>
+
+</body>
+</html>
